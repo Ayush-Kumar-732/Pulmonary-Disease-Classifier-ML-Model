@@ -187,36 +187,45 @@ These features contributed strongly to the classification patterns observed in t
 Feature importance indicates predictive contribution within the model; it does not establish medical causation.
 
 ---
+
 ## 🛠️ Technologies Used:
 
 **Programming**
-* Python
+- Python
+- HTML, CSS, JavaScript
 
 **Environment**
-* Google Colab / Jupyter Notebook
+- Google Colab / Jupyter Notebook
 
 **Dataset**
-* Kaggle
+- Kaggle
 
 **Data Analysis**
-* Pandas
-* NumPy
-* Scikit-learn
+- Pandas
+- NumPy
+- Scikit-learn
 
 **Data Visualization**
-* Matplotlib
-* Seaborn
+- Matplotlib
+- Seaborn
 
 **Machine Learning Models**
-* Random Forest Classifier(for feature selection)
-* Logistic Regression
-* Decision Tree Classifier
-* K Nearest Neighbors
+- Random Forest Classifier (for feature selection)
+- Logistic Regression
+- Decision Tree Classifier
+- K Nearest Neighbors
 
 **Hyperparameter Optimization**
-* Scikit-Optimize
-* BayesSearchCV
-* RandomizedSearchCV
-* GridSearchCV
+- Scikit-Optimize
+- BayesSearchCV
+- RandomizedSearchCV
+- GridSearchCV
+
+**Backend & Deployment**
+- Flask (REST API for serving predictions)
+- Gunicorn (production WSGI server)
+- Joblib (model serialization)
+- Render (cloud hosting)
+- Git & GitHub (version control)
 
 
