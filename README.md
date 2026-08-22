@@ -8,6 +8,11 @@ The project follows an end-to-end machine learning workflow covering **data prep
 
 ---
 
+## 🔗 Live demo: 
+https://pulmonary-disease-classifier-ml-model.onrender.com
+
+---
+
 ## 📌 Project Overview
 
 The objective of this project is to investigate whether patient-related factors such as smoking, pollution exposure, respiratory symptoms, oxygen saturation, and other health indicators can be used to classify pulmonary disease.
