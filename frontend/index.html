@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pulmonary Disease Prediction System — AI-assisted health risk screening.">
+  <title>PulmoAI | Pulmonary Disease Prediction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-lungs"></i></span> Pulmo<span>AI</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prediction">Prediction</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-nav" href="#prediction">Get Started <i class="fa-solid fa-arrow-right ms-1"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center min-vh-100 pt-5">
+          <div class="col-lg-6 hero-copy">
+            <div class="eyebrow"><span></span> AI-POWERED HEALTH SCREENING</div>
+            <h1>Your lungs deserve <em>earlier answers.</em></h1>
+            <p class="hero-text">Predict the likelihood of pulmonary disease using machine learning, turning health indicators into a clearer next step.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#prediction" class="btn btn-primary-custom">Start Prediction <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#about" class="btn btn-link-custom"><i class="fa-regular fa-circle-play"></i> Learn how it works</a>
+            </div>
+            <div class="hero-trust"><i class="fa-solid fa-shield-heart"></i><span>For educational screening support only — not a medical diagnosis.</span></div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="lung-visual">
+              <div class="scan-ring ring-1"></div><div class="scan-ring ring-2"></div>
+              <div class="scan-label scan-label-1"><i class="fa-solid fa-heart-pulse"></i> Live health insights</div>
+              <div class="scan-label scan-label-2"><i class="fa-solid fa-brain"></i> ML-assisted</div>
+              <svg viewBox="0 0 560 510" role="img" aria-label="Illustration of healthy lungs" class="lungs-svg">
+                <defs><linearGradient id="lungGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55c9d1"/><stop offset="1" stop-color="#0f5a9e"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+                <path d="M276 70v118c-15 7-25 20-31 40l-13 48c-6-35-18-72-38-104-25-40-54-57-80-43-37 20-55 85-35 159 18 65 64 105 113 97 34-6 50-37 53-78l14-1h2l14 1c3 41 19 72 53 78 49 8 95-32 113-97 20-74 2-139-35-159-26-14-55 3-80 43-20 32-32 69-38 104l-13-48c-6-20-16-33-31-40V70" fill="url(#lungGrad)" opacity=".95"/>
+                <path d="M280 40v150M280 190l-37 48M280 190l37 48M243 238l-31 57M317 238l31 57M212 295l-16 66M348 295l16 66" stroke="#d8ffff" stroke-width="9" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+                <circle cx="280" cy="50" r="17" fill="#e8ffff"/><path d="M280 68v30" stroke="#e8ffff" stroke-width="10" stroke-linecap="round"/>
+              </svg>
+              <div class="vital-card"><span class="pulse-dot"></span><div><small>Oxygen saturation</small><strong>98<sup>%</sup></strong></div><div class="mini-chart"><span></span><span></span><span></span><span></span><span></span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section"><div class="container"><div class="stats-panel row g-0 text-center"><div class="col-md-4 stat"><strong>18+</strong><span>Health indicators assessed</span></div><div class="col-md-4 stat"><strong>AI</strong><span>Machine learning assisted</span></div><div class="col-md-4 stat"><strong>24/7</strong><span>Screening access</span></div></div></div></section>
+
+    <section class="section" id="about"><div class="container">
+      <div class="section-heading text-center"><div class="eyebrow justify-content-center"><span></span> WHY EARLY SCREENING MATTERS <span></span></div><h2>Insight today. <em>Better choices</em> tomorrow.</h2><p>Our system helps make complex health information easier to understand and discuss with a healthcare professional.</p></div>
+      <div class="row g-4 mt-2">
+        <div class="col-md-4"><article class="info-card"><div class="info-icon icon-blue"><i class="fa-solid fa-magnifying-glass"></i></div><h3>Early awareness</h3><p>Many pulmonary conditions develop quietly. Recognizing potential risk factors early can encourage timely medical evaluation.</p><a href="#prediction">Explore your factors <i class="fa-solid fa-arrow-right"></i></a></article></div>
+        <div class="col-md-4"><article class="info-card featured"><div class="info-icon icon-teal"><i class="fa-solid fa-microchip"></i></div><h3>AI with purpose</h3><p>Machine learning looks across multiple lifestyle and health inputs to provide a consistent, data-informed screening signal.</p><a href="#prediction">See the assessment <i class="fa-solid fa-arrow-right"></i></a></article></div>
+        <div class="col-md-4"><article class="info-card"><div class="info-icon icon-navy"><i class="fa-solid fa-user-doctor"></i></div><h3>Informed next steps</h3><p>Your result is designed to support—not replace—conversations with qualified healthcare professionals.</p><a href="#contact">Learn more <i class="fa-solid fa-arrow-right"></i></a></article></div>
+      </div>
+    </div></section>
+
+    <section class="section prediction-section" id="prediction"><div class="container">
+      <div class="row align-items-end mb-4"><div class="col-lg-7"><div class="eyebrow"><span></span> HEALTH RISK ASSESSMENT</div><h2>Begin your <em>screening.</em></h2><p class="mb-0 text-secondary">Complete the information below for an instant preliminary assessment.</p></div><div class="col-lg-5 text-lg-end mt-3 mt-lg-0"><span class="secure-note"><i class="fa-solid fa-lock"></i> Your information stays in this browser</span></div></div>
+      <div class="prediction-shell"><aside class="form-aside"><div class="step-number">01</div><h3>Tell us about your health.</h3><p>Each field helps the model build a more considered risk profile.</p><div class="aside-meter"><div class="meter-head"><span>Assessment progress</span><b id="formProgressText">0%</b></div><div class="progress"><div id="formProgress" class="progress-bar" style="width:0%"></div></div></div><div class="aside-tip"><i class="fa-solid fa-circle-info"></i><span>Use your best current knowledge. This tool is for educational use.</span></div></aside>
+        <div class="form-area"><form id="predictionForm" novalidate>
+          <div class="form-section-title"><span>Personal & lifestyle</span><small>Fields marked * are required</small></div>
+          <div class="row g-3">
+            <div class="col-md-4"><label for="age" class="form-label"><i class="fa-solid fa-cake-candles"></i> Age *</label><input type="number" class="form-control" id="age" min="1" max="120" placeholder="e.g. 45" required><div class="invalid-feedback">Enter an age from 1–120.</div></div>
+            <div class="col-md-4"><label for="gender" class="form-label"><i class="fa-solid fa-venus-mars"></i> Gender *</label><select class="form-select" id="gender" required><option value="" selected disabled>Select</option><option>Male</option><option>Female</option></select><div class="invalid-feedback">Please select gender.</div></div>
+            <div class="col-md-4"><label for="smoking" class="form-label"><i class="fa-solid fa-smoking"></i> Smoking *</label><select class="form-select" id="smoking" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="fingerDiscoloration" class="form-label" data-bs-toggle="tooltip" title="Persistent discoloration of fingers or nails."><i class="fa-solid fa-hand"></i> Finger discoloration <i class="fa-solid fa-circle-info hint"></i></label><select class="form-select" id="fingerDiscoloration" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="mentalStress" class="form-label"><i class="fa-solid fa-brain"></i> Mental stress *</label><select class="form-select" id="mentalStress" required><option value="" selected disabled>Select</option><option>Low</option><option>Medium</option><option>High</option></select><div class="invalid-feedback">Please select a level.</div></div>
+            <div class="col-md-4"><label for="pollution" class="form-label" data-bs-toggle="tooltip" title="Your usual exposure to polluted air or irritants."><i class="fa-solid fa-smog"></i> Pollution exposure <i class="fa-solid fa-circle-info hint"></i></label><select class="form-select" id="pollution" required><option value="" selected disabled>Select</option><option>Low</option><option>Medium</option><option>High</option></select><div class="invalid-feedback">Please select a level.</div></div>
+            <div class="col-md-4"><label for="longTermIllness" class="form-label"><i class="fa-solid fa-notes-medical"></i> Long term illness *</label><select class="form-select" id="longTermIllness" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="immuneWeakness" class="form-label"><i class="fa-solid fa-shield-virus"></i> Immune weakness *</label><select class="form-select" id="immuneWeakness" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="breathingIssue" class="form-label"><i class="fa-solid fa-lungs"></i> Breathing issue *</label><select class="form-select" id="breathingIssue" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+          </div>
+          <div class="form-section-title mt-5"><span>Symptoms & clinical indicators</span></div>
+          <div class="row g-3">
+            <div class="col-md-6"><label for="energyLevel" class="form-label"><i class="fa-solid fa-bolt"></i> Energy level * <strong id="energyValue">50</strong></label><input type="range" class="form-range" id="energyLevel" min="0" max="100" value="50"><div class="range-labels"><span>Low energy</span><span>High energy</span></div></div>
+            <div class="col-md-6"><label for="oxygenSaturation" class="form-label" data-bs-toggle="tooltip" title="Typical healthy readings are commonly 95–100%. Seek care for concerning readings."><i class="fa-solid fa-droplet"></i> Oxygen saturation * <i class="fa-solid fa-circle-info hint"></i></label><div class="input-group"><input type="number" class="form-control" id="oxygenSaturation" min="70" max="100" placeholder="e.g. 98" required><span class="input-group-text">%</span><div class="invalid-feedback">Enter a value from 70–100.</div></div></div>
+            <div class="col-md-4"><label for="alcohol" class="form-label"><i class="fa-solid fa-wine-glass"></i> Alcohol consumption *</label><select class="form-select" id="alcohol" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="throatDiscomfort" class="form-label"><i class="fa-solid fa-head-side-cough"></i> Throat discomfort *</label><select class="form-select" id="throatDiscomfort" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="chestTightness" class="form-label"><i class="fa-solid fa-heart-pulse"></i> Chest tightness *</label><select class="form-select" id="chestTightness" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="familyHistory" class="form-label"><i class="fa-solid fa-people-roof"></i> Family history *</label><select class="form-select" id="familyHistory" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="smokingFamilyHistory" class="form-label"><i class="fa-solid fa-users"></i> Smoking family history *</label><select class="form-select" id="smokingFamilyHistory" required><option value="" selected disabled>Select</option><option>Yes</option><option>No</option></select><div class="invalid-feedback">Please select an option.</div></div>
+            <div class="col-md-4"><label for="stressImmune" class="form-label" data-bs-toggle="tooltip" title="A numeric score used by your project dataset/model."><i class="fa-solid fa-chart-simple"></i> Stress immune score * <i class="fa-solid fa-circle-info hint"></i></label><input type="number" class="form-control" id="stressImmune" min="0" max="100" placeholder="0–100" required><div class="invalid-feedback">Enter a score from 0–100.</div></div>
+          </div>
+          <div class="form-actions"><button type="submit" class="btn btn-predict" id="predictButton"><span class="button-label"><i class="fa-solid fa-wand-magic-sparkles"></i> Predict Disease</span><span class="button-loading d-none"><span class="spinner-border spinner-border-sm"></span> Analysing indicators...</span></button><button type="reset" class="btn btn-reset"><i class="fa-solid fa-rotate-left"></i> Reset</button></div>
+        </form></div>
+      </div>
+      <div id="resultCard" class="result-card d-none" aria-live="polite"></div>
+      <p class="disclaimer"><i class="fa-solid fa-triangle-exclamation"></i> This prediction is an educational demonstration only and is not medical advice, diagnosis, or treatment. Consult a qualified healthcare professional for health concerns.</p>
+    </div></section>
+
+    <section class="section team-section" id="team"><div class="container"><div class="row align-items-center g-5"><div class="col-lg-6"><div class="eyebrow"><span></span> THE PROJECT</div><h2>Built where health meets <em>intelligence.</em></h2><p class="team-copy">PulmoAI is a machine learning project created to demonstrate how health data can power thoughtful, accessible preliminary risk assessments.</p><div class="creator"><div class="creator-avatar">AK</div><div><strong>Ayush Kumar</strong><span>Machine Learning Project Creator</span></div></div></div><div class="col-lg-6"><div class="principles-card"><div><i class="fa-solid fa-heart-circle-check"></i><span><b>Human-first</b><small>Clear, respectful health communication.</small></span></div><div><i class="fa-solid fa-chart-line"></i><span><b>Data-informed</b><small>Signals derived from project model inputs.</small></span></div><div><i class="fa-solid fa-lock"></i><span><b>Privacy-minded</b><small>No form data is stored by this demo.</small></span></div></div></div></div></div></section>
+  </main>
+  <footer id="contact"><div class="container"><div class="footer-main"><a class="navbar-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-lungs"></i></span> Pulmo<span>AI</span></a><p>Pulmonary Disease Prediction System<br>Machine Learning Project</p><div class="social-links"><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></div></div><div class="footer-bottom"><span>© 2026 PulmoAI. Made with care by Ayush Kumar.</span><a href="#home">Back to top <i class="fa-solid fa-arrow-up"></i></a></div></div></footer>
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="claudescript.js"></script>
+</body>
+</html>
