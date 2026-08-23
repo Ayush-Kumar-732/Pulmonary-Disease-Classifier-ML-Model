@@ -41,7 +41,7 @@ Unlike a static demo, every prediction shown on the live site is generated dynam
 ## 🔗 **Live demo:** 
 https://pulmonary-disease-classifier-ml-model.onrender.com
 
-Note: first load may take ~20-40 seconds as the free-tier server wakes up — thanks for your patience!
+*(Note: first load may take ~30–50 seconds as the free-tier server wakes up — thanks for your patience!)*
 
 ---
 
