@@ -47,17 +47,18 @@ https://pulmonary-disease-classifier-ml-model.onrender.com
 
 ```
 Pulmonary-Disease-Classifier-ML-Model/
-│
+|
 ├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── jscript.js
-│
+|   ├── index.html
+|   ├── style.css
+|   ├── jscript.js
+|   └── favicon.svg
+|
 ├── app.py                              # Flask backend — loads model, serves /predict
 ├── pulmo_logreg_model.joblib           # Trained Logistic Regression model
 ├── feature_order.json                  # Feature order expected by the model
 ├── requirements.txt                    # Python dependencies
-│
+|
 ├── Pulmonary_Disease_Classification_project.ipynb   # Full EDA, preprocessing, model training & evaluation
 ├── README.md
 └── .gitignore
