@@ -8,12 +8,9 @@ The project follows an end-to-end machine learning workflow covering **data prep
 
 ---
 
-## 🔗 Live demo: 
-https://pulmonary-disease-classifier-ml-model.onrender.com
+## 🚀 Project Overview:
 
----
-
-## 📌 Project Overview
+This repository contains a complete pulmonary disease risk classifier — from data analysis to a live, deployed prediction tool.
 
 The objective of this project is to investigate whether patient-related factors such as smoking, pollution exposure, respiratory symptoms, oxygen saturation, and other health indicators can be used to classify pulmonary disease.
 
@@ -30,6 +27,41 @@ Hyperparameter optimization was performed using:
 - **GridSearchCV** for KNN
 
 After comparing the models, **Logistic Regression** was selected as the final model because of its strong generalization, highest recall, and competitive overall performance.
+
+The final build includes:
+
+- Complete exploratory data analysis and preprocessing pipeline
+- Three trained and compared classification models with hyperparameter tuning
+- A Flask backend serving real-time predictions from the trained Logistic Regression model
+- A responsive web interface for entering health indicators and receiving instant risk assessments
+- Full deployment pipeline — live and publicly accessible
+
+Unlike a static demo, every prediction shown on the live site is generated dynamically by the trained model based on the user's actual input — not hardcoded or simulated.
+
+## 🔗 **Live demo:** 
+https://pulmonary-disease-classifier-ml-model.onrender.com
+
+---
+
+## 📂 Project Structure
+
+```
+Pulmonary-Disease-Classifier-ML-Model/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── jscript.js
+│
+├── app.py                              # Flask backend — loads model, serves /predict
+├── pulmo_logreg_model.joblib           # Trained Logistic Regression model
+├── feature_order.json                  # Feature order expected by the model
+├── requirements.txt                    # Python dependencies
+│
+├── Pulmonary_Disease_Classification_project.ipynb   # Full EDA, preprocessing, model training & evaluation
+├── README.md
+└── .gitignore
+```
 
 ---
 
@@ -155,36 +187,45 @@ These features contributed strongly to the classification patterns observed in t
 Feature importance indicates predictive contribution within the model; it does not establish medical causation.
 
 ---
+
 ## 🛠️ Technologies Used:
 
 **Programming**
-* Python
+- Python
+- HTML, CSS, JavaScript
 
 **Environment**
-* Google Colab / Jupyter Notebook
+- Google Colab / Jupyter Notebook
 
 **Dataset**
-* Kaggle
+- Kaggle
 
 **Data Analysis**
-* Pandas
-* NumPy
-* Scikit-learn
+- Pandas
+- NumPy
+- Scikit-learn
 
 **Data Visualization**
-* Matplotlib
-* Seaborn
+- Matplotlib
+- Seaborn
 
 **Machine Learning Models**
-* Random Forest Classifier(for feature selection)
-* Logistic Regression
-* Decision Tree Classifier
-* K Nearest Neighbors
+- Random Forest Classifier (for feature selection)
+- Logistic Regression
+- Decision Tree Classifier
+- K Nearest Neighbors
 
 **Hyperparameter Optimization**
-* Scikit-Optimize
-* BayesSearchCV
-* RandomizedSearchCV
-* GridSearchCV
+- Scikit-Optimize
+- BayesSearchCV
+- RandomizedSearchCV
+- GridSearchCV
+
+**Backend & Deployment**
+- Flask (REST API for serving predictions)
+- Gunicorn (production WSGI server)
+- Joblib (model serialization)
+- Render (cloud hosting)
+- Git & GitHub (version control)
 
 
