@@ -229,4 +229,33 @@ Feature importance indicates predictive contribution within the model; it does n
 - Render (cloud hosting)
 - Git & GitHub (version control)
 
+---
+
+## ⚙️ Run Locally
+
+**1. Clone the repository:**
+```bash
+   git clone https://github.com/Ayush-Kumar-732/Pulmonary-Disease-Classifier-ML-Model.git
+   cd Pulmonary-Disease-Classifier-ML-Model
+```
+
+**2. (Optional but recommended) Create and activate a virtual environment:**
+```bash
+   python3 -m venv venv
+   source venv/bin/activate   # Windows: venv\Scripts\activate
+```
+
+**3. Install dependencies:**
+```bash
+   pip install -r requirements.txt
+```
+
+**4. Run the app:**
+```bash
+   python3 app.py
+```
+   *(If `python3` isn't recognized, try `python` or `py` instead, depending on your system.)*
+
+**5. Open `http://127.0.0.1:5000` in your browser.**
+
 
