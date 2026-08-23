@@ -66,7 +66,7 @@ Pulmonary-Disease-Classifier-ML-Model/
 
 ---
 
-## 🎯 Objectives
+## 🎯 Objectives:
 
 - Perform data cleaning and preprocessing
 - Analyze feature distributions and relationships
@@ -91,7 +91,7 @@ PULMONARY_DISEASE
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## 🔍 Exploratory Data Analysis:
 
 The project includes univariate, bivariate, and multivariate analysis to understand the dataset and identify potentially useful relationships.
 
@@ -116,7 +116,7 @@ Visualizations included:
 
 ---
 
-## 🧹 Data Preprocessing
+## 🧹 Data Preprocessing:
 
 The following preprocessing steps were performed:
 * Checked data types
@@ -133,7 +133,7 @@ The following preprocessing steps were performed:
 - Training samples : 3,951
 - Testing samples  : 988
 ---
-## 🤖 Models Evaluated
+## 🤖 Models Evaluated:
 
 **1. Logistic Regression**
 
@@ -172,7 +172,7 @@ Recall was considered an important metric because false negatives represent posi
 
 ---
 
-## 🔎 Important Features
+## 🔎 Important Features:
 
 Feature importance analysis identified several influential variables, including:
 * AGE
@@ -231,7 +231,7 @@ Feature importance indicates predictive contribution within the model; it does n
 
 ---
 
-## ⚙️ Run Locally
+## ⚙️ Run Locally:
 
 **1. Clone the repository:**
 ```bash
@@ -257,5 +257,19 @@ Feature importance indicates predictive contribution within the model; it does n
    *(If `python3` isn't recognized, try `python` or `py` instead, depending on your system.)*
 
 **5. Open `http://127.0.0.1:5000` in your browser.**
+
+---
+
+## 👤 Author:
+
+**Ayush Kumar**
+Machine Learning Project Creator
+
+---
+
+## 🙏 Acknowledgements:
+
+- Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`Lung Cancer Dataset (1).csv`](./Lung%20Cancer%20Dataset%20(1).csv)
+- Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
 
 
