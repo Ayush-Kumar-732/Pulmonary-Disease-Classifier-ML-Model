@@ -41,23 +41,27 @@ Unlike a static demo, every prediction shown on the live site is generated dynam
 ## 🔗 **Live demo:** 
 https://pulmonary-disease-classifier-ml-model.onrender.com
 
+*(Note: first load may take ~30–50 seconds as the free-tier server wakes up — thanks for your patience!)*
+
 ---
 
 ## 📂 Project Structure
 
 ```
 Pulmonary-Disease-Classifier-ML-Model/
-│
+|
 ├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── jscript.js
-│
+|   ├── index.html
+|   ├── style.css
+|   ├── jscript.js
+|   └── favicon.svg                     # Browser tab icon
+|
 ├── app.py                              # Flask backend — loads model, serves /predict
 ├── pulmo_logreg_model.joblib           # Trained Logistic Regression model
 ├── feature_order.json                  # Feature order expected by the model
 ├── requirements.txt                    # Python dependencies
-│
+├── lung data.csv                       # Raw dataset used for training
+|
 ├── Pulmonary_Disease_Classification_project.ipynb   # Full EDA, preprocessing, model training & evaluation
 ├── README.md
 └── .gitignore
@@ -65,7 +69,7 @@ Pulmonary-Disease-Classifier-ML-Model/
 
 ---
 
-## 🎯 Objectives
+## 🎯 Objectives:
 
 - Perform data cleaning and preprocessing
 - Analyze feature distributions and relationships
@@ -90,7 +94,7 @@ PULMONARY_DISEASE
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## 🔍 Exploratory Data Analysis:
 
 The project includes univariate, bivariate, and multivariate analysis to understand the dataset and identify potentially useful relationships.
 
@@ -115,7 +119,7 @@ Visualizations included:
 
 ---
 
-## 🧹 Data Preprocessing
+## 🧹 Data Preprocessing:
 
 The following preprocessing steps were performed:
 * Checked data types
@@ -132,7 +136,7 @@ The following preprocessing steps were performed:
 - Training samples : 3,951
 - Testing samples  : 988
 ---
-## 🤖 Models Evaluated
+## 🤖 Models Evaluated:
 
 **1. Logistic Regression**
 
@@ -171,7 +175,7 @@ Recall was considered an important metric because false negatives represent posi
 
 ---
 
-## 🔎 Important Features
+## 🔎 Important Features:
 
 Feature importance analysis identified several influential variables, including:
 * AGE
@@ -227,5 +231,49 @@ Feature importance indicates predictive contribution within the model; it does n
 - Joblib (model serialization)
 - Render (cloud hosting)
 - Git & GitHub (version control)
+
+---
+
+## ⚙️ Run Locally:
+
+**1. Clone the repository:**
+```bash
+   git clone https://github.com/Ayush-Kumar-732/Pulmonary-Disease-Classifier-ML-Model.git
+   cd Pulmonary-Disease-Classifier-ML-Model
+```
+
+**2. (Optional but recommended) Create and activate a virtual environment:**
+```bash
+   python3 -m venv venv
+   source venv/bin/activate   # Windows: venv\Scripts\activate
+```
+
+**3. Install dependencies:**
+```bash
+   pip install -r requirements.txt
+```
+
+**4. Run the app:**
+```bash
+   python3 app.py
+```
+   *(If `python3` isn't recognized, try `python` or `py` instead, depending on your system.)*
+
+**5. Open `http://127.0.0.1:5000` in your browser.**
+
+---
+
+## 👤 Author:
+
+**Ayush Kumar**
+
+   ~Machine Learning Project Creator
+
+---
+
+## 🙏 Acknowledgements:
+
+- Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`lung data.csv`](./lung%20data.csv)
+- Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
 
 
