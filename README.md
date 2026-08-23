@@ -58,6 +58,7 @@ Pulmonary-Disease-Classifier-ML-Model/
 ├── pulmo_logreg_model.joblib           # Trained Logistic Regression model
 ├── feature_order.json                  # Feature order expected by the model
 ├── requirements.txt                    # Python dependencies
+├── lung data.csv                       # Raw dataset used for training
 |
 ├── Pulmonary_Disease_Classification_project.ipynb   # Full EDA, preprocessing, model training & evaluation
 ├── README.md
@@ -263,13 +264,14 @@ Feature importance indicates predictive contribution within the model; it does n
 ## 👤 Author:
 
 **Ayush Kumar**
-Machine Learning Project Creator
+
+   ~Machine Learning Project Creator
 
 ---
 
 ## 🙏 Acknowledgements:
 
-- Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`Lung Cancer Dataset (1).csv`](./Lung%20Cancer%20Dataset%20(1).csv)
+- Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`lung data.csv`](./lung%20data.csv)
 - Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
 
 
