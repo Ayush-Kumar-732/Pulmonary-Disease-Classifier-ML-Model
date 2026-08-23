@@ -52,7 +52,7 @@ Pulmonary-Disease-Classifier-ML-Model/
 |   ├── index.html
 |   ├── style.css
 |   ├── jscript.js
-|   └── favicon.svg
+|   └── favicon.svg                     # Browser tab icon
 |
 ├── app.py                              # Flask backend — loads model, serves /predict
 ├── pulmo_logreg_model.joblib           # Trained Logistic Regression model
