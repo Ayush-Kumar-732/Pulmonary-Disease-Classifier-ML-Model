@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * Logistic Regression model from the notebook and returns a real prediction.
    * Update API_BASE_URL if the backend is hosted somewhere other than localhost.
    */
-  const API_BASE_URL = 'http://127.0.0.1:5000';
+  const API_BASE_URL = '';
 
   async function predictDisease(data) {
     const response = await fetch(`${API_BASE_URL}/predict`, {
