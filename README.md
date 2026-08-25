@@ -263,6 +263,34 @@ Feature importance indicates predictive contribution within the model; it does n
 
 ---
 
+## 📌 Future Improvements
+
+- User accounts to save and track past assessments
+- Expanded dataset for improved model generalization
+- Additional models (e.g. XGBoost, SVM) for comparison
+- Model explainability (e.g. SHAP values) to show which factors drove a prediction
+- Mobile-responsive UI improvements
+- Confidence intervals alongside risk predictions
+
+---
+
+## 🤝 Contributions
+
+Interested in improving this project? Contributions are appreciated!
+
+1. Fork the repository
+2. Create a feature branch
+```bash
+   git checkout -b feature/your-feature-name
+```
+3. Commit your changes
+```bash
+   git commit -m "Add: your feature description"
+```
+4. Push to your fork and open a Pull Request
+
+---
+
 ## 👤 Author:
 
 **Ayush Kumar**
