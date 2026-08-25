@@ -41,7 +41,7 @@ Unlike a static demo, every prediction shown on the live site is generated dynam
 ## 🔗 **Live demo:** 
 https://pulmonary-disease-classifier-ml-model.onrender.com
 
-*(Note: first load may take ~30–50 seconds as the free-tier server wakes up — thanks for your patience!)*
+*(Note: first load may take ~20–40 seconds as the free-tier server wakes up — thanks for your patience!)*
 
 ---
 
@@ -260,6 +260,34 @@ Feature importance indicates predictive contribution within the model; it does n
    *(If `python3` isn't recognized, try `python` or `py` instead, depending on your system.)*
 
 **5. Open `http://127.0.0.1:5000` in your browser.**
+
+---
+
+## 📌 Future Improvements
+
+- User accounts to save and track past assessments
+- Expanded dataset for improved model generalization
+- Additional models (e.g. XGBoost, SVM) for comparison
+- Model explainability (e.g. SHAP values) to show which factors drove a prediction
+- Mobile-responsive UI improvements
+- Confidence intervals alongside risk predictions
+
+---
+
+## 🤝 Contributions
+
+Interested in improving this project? Contributions are appreciated!
+
+1. Fork the repository
+2. Create a feature branch
+```bash
+   git checkout -b feature/your-feature-name
+```
+3. Commit your changes
+```bash
+   git commit -m "Add: your feature description"
+```
+4. Push to your fork and open a Pull Request
 
 ---
 
