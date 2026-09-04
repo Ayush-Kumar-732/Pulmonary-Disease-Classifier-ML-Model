@@ -184,7 +184,7 @@ Feature importance analysis identified several influential variables, including:
 * OXYGEN_SATURATION
 * THROAT_DISCOMFORT
 * BREATHING_ISSUE
-* ALCOHOL CONSUMPTION
+* ALCOHOL_CONSUMPTION
 
 These features contributed strongly to the classification patterns observed in the dataset.
 
