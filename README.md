@@ -163,14 +163,14 @@ Hyperparameters were optimized using GridSearchCV.
 
 ---
 ## Key Takeaways:
-* Logistic Regression and Decision Tree achieved almost similar test accuracy.
-* Logistic Regression achieved the highest recall among the evaluated models and showed minimal evidence of overfitting.
+* Logistic Regression and Decision Tree achieved almost similar test accuracy but Logistic Regression achieved the highest recall among the evaluated models and showed the least evidence of overfitting.
 * Decision Tree had a larger train-test accuracy gap showing mild overfitting.
-* KNN achieved 100% training accuracy after tuning but only 76.32% test accuracy, indicating substantial overfitting.
+* Overfitting is simply when an AI memorizes its training data so perfectly that it loses the ability to recognize general patterns. It looks like a genius in the lab, but fails in the real world because it does not know how to handle anything new.
+* K Nearest Neighbors Classifier achieved 100% training accuracy after tuning but only 76.32% test accuracy, indicating substantial overfitting.
 * Logistic Regression provided the best overall balance between generalization, recall, and F1-score.
 ---
 ## 🏆 Final Model — Logistic Regression
-Logistic Regression was selected as the final prediction model due to it's very small train-test gap (~0.13%) which indicates minimal evidence of overfitting compared with the Decision Tree and KNN models.
+Logistic Regression was selected as the final prediction model due to it's very small train-test gap (~0.13%) which indicates better evidence of strong generalization when compared with the Decision Tree and KNN Classisfier models.
 Recall was considered an important metric because false negatives represent positive cases that the model fails to identify in this classification task.
 
 ---
@@ -217,7 +217,7 @@ Feature importance indicates predictive contribution within the model; it does n
 - Random Forest Classifier (for feature selection)
 - Logistic Regression
 - Decision Tree Classifier
-- K Nearest Neighbors
+- K Nearest Neighbors Classifier
 
 **Hyperparameter Optimization**
 - Scikit-Optimize
@@ -304,6 +304,7 @@ Interested in improving this project? Contributions are appreciated!
 ## 🙏 Acknowledgements:
 
 - Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`lung data.csv`](./lung%20data.csv)
+- Want to go through the source code of this ML project? The Jupyter notebook(.ipynb) file containing the main Python code for building this project is here: [`Copy_of_Pulmonary_Disease_Classification_project.ipynb`](./Copy of Pulmonary Disease Classification project.ipynb)
 - Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
 
 
