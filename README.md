@@ -62,7 +62,7 @@ Pulmonary-Disease-Classifier-ML-Model/
 ├── requirements.txt                    # Python dependencies
 ├── lung data.csv                       # Raw dataset used for training
 |
-├── Pulmonary_Disease_Classification_project.ipynb   # Full EDA, preprocessing, model training & evaluation
+├── Copy_of_Pulmonary_Disease_Classification_project.ipynb   # Full EDA, preprocessing, model training & evaluation
 ├── README.md
 └── .gitignore
 ```
