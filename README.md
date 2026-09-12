@@ -17,14 +17,15 @@ The objective of this project is to investigate whether patient-related factors 
 Three classification algorithms were evaluated:
 
 - Logistic Regression
-- Decision Tree
-- K-Nearest Neighbors (KNN)
+- Decision Tree Classifier
+- K-Nearest Neighbors Classifier
+- Random Forest Classifier 
 
 Hyperparameter optimization was performed using:
 
 - **Bayesian Optimization** for Logistic Regression
-- **RandomizedSearchCV** for Decision Tree
-- **GridSearchCV** for KNN
+- **RandomizedSearchCV** for Decision Tree 
+- **GridSearchCV** for K-Nearest Neighbors
 
 After comparing the models, **Logistic Regression** was selected as the final model because of its strong generalization, highest recall, and competitive overall performance.
 
