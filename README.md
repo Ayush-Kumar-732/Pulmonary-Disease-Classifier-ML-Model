@@ -154,6 +154,10 @@ Hyperparameters were optimized using RandomizedSearchCV.
 Used as a distance-based classification approach.
 Hyperparameters were optimized using GridSearchCV.
 
+**4. Random Forest Classifier**
+
+Used for choosing only required features(patient's demographics) important for predicting lung disease risk before fitting into the model.
+
 ---
 ## 📈 Model Performance on test dataset:
 | Model | Accuracy | Precision | Recall | F1-Score |
@@ -171,7 +175,7 @@ Hyperparameters were optimized using GridSearchCV.
 * Logistic Regression provided the best overall balance between generalization, recall, and F1-score.
 ---
 ## 🏆 Final Model — Logistic Regression
-Logistic Regression was selected as the final prediction model due to it's very small train-test gap (~0.13%) which indicates better evidence of strong generalization when compared with the Decision Tree and KNN Classisfier models.
+Logistic Regression was selected as the final prediction model due to it's very small train-test gap (~0.13%) which indicates better evidence of strong generalization when compared with the Decision Tree and KNN Classisfier models which means the ML model truly learned the underlying patterns rather than just memorizing its practice/training data, allowing it to make highly accurate predictions when faced with brand-new, real-world situations.
 Recall was considered an important metric because false negatives represent positive cases that the model fails to identify in this classification task.
 
 ---
@@ -305,7 +309,7 @@ Interested in improving this project? Contributions are appreciated!
 ## 🙏 Acknowledgements:
 
 - Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`lung data.csv`](./lung%20data.csv)
-- Want to go through the source code of this ML project? The Jupyter notebook(.ipynb) file containing the main Python code for building this project is here: [`Copy_of_Pulmonary_Disease_Classification_project.ipynb`](./Copy of Pulmonary Disease Classification project.ipynb)
+- Want to go through the source code of this ML project? The Jupyter notebook(.ipynb) file containing the main Python code for building this project is here: [Copy_of_Pulmonary_Disease_Classification_project.ipynb](./Copy_of_Pulmonary_Disease_Classification_project.ipynb)
 - Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
 
 
