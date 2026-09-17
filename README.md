@@ -309,7 +309,7 @@ Interested in improving this project? Contributions are appreciated!
 ## 🙏 Acknowledgements:
 
 - Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`lung data.csv`](./lung%20data.csv)
-- Want to go through the source code of this ML project? The Jupyter notebook(.ipynb) file containing the main Python code for building this project is here: [Copy_of_Pulmonary_Disease_Classification_project.ipynb](./Copy_of_Pulmonary_Disease_Classification_project.ipynb)
+- To explore the source code for this ML project, view the Jupyter notebook here: [Copy_of_Pulmonary_Disease_Classification_project.ipynb](./Copy_of_Pulmonary_Disease_Classification_project.ipynb)
 - Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
 
 
