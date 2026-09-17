@@ -14,14 +14,14 @@ This repository contains a complete pulmonary disease risk classifier — from d
 
 The objective of this project is to investigate whether patient-related factors such as smoking, pollution exposure, respiratory symptoms, oxygen saturation, and other health indicators can be used to classify pulmonary disease.
 
-Three classification algorithms were evaluated:
+Three classification algorithms were evaluated:-
 
 - Logistic Regression
 - Decision Tree Classifier
 - K-Nearest Neighbors Classifier
 - Random Forest Classifier 
 
-Hyperparameter optimization was performed using:
+Hyperparameter optimization was performed using:-
 
 - **Bayesian Optimization** for Logistic Regression
 - **RandomizedSearchCV** for Decision Tree 
@@ -29,13 +29,13 @@ Hyperparameter optimization was performed using:
 
 After comparing the models, **Logistic Regression** was selected as the final model because of its strong generalization, highest recall, and competitive overall performance.
 
-The final build includes:
+The final build includes:-
 
-- Complete exploratory data analysis and preprocessing pipeline
-- Three trained and compared classification models with hyperparameter tuning
-- A Flask backend serving real-time predictions from the trained Logistic Regression model
-- A responsive web interface for entering health indicators and receiving instant risk assessments
-- Full deployment pipeline — live and publicly accessible
+- Complete exploratory data analysis and preprocessing pipeline.
+- Three trained and compared classification models with hyperparameter tuning.
+- A Flask backend serving real-time predictions from the trained Logistic Regression model.
+- A responsive web interface for entering health indicators and receiving instant risk assessments.
+- Full deployment pipeline — live and publicly accessible.
 
 Unlike a static demo, every prediction shown on the live site is generated dynamically by the trained model based on the user's actual input — not hardcoded or simulated.
 
@@ -72,15 +72,15 @@ Pulmonary-Disease-Classifier-ML-Model/
 
 ## 🎯 Objectives:
 
-- Perform data cleaning and preprocessing
-- Analyze feature distributions and relationships
-- Identify important predictive features
-- Handle outliers and feature redundancy
-- Train multiple classification models
-- Optimize model hyperparameters
-- Evaluate models using multiple classification metrics
-- Compare model performance
-- Select the most suitable final model
+- Perform data cleaning and preprocessing.
+- Analyze feature distributions and relationships.
+- Identify important predictive features.
+- Handle outliers and feature redundancy.
+- Train multiple classification models.
+- Optimize model hyperparameters.
+- Evaluate models using multiple classification metrics.
+- Compare model performance.
+- Select the most suitable final model.
 
 ---
 
@@ -99,7 +99,7 @@ PULMONARY_DISEASE
 
 The project includes univariate, bivariate, and multivariate analysis to understand the dataset and identify potentially useful relationships.
 
-Key observations included:
+Key observations included:-
 * Smoking showed a strong association with pulmonary disease in the dataset.
 * The combination of smoking and pollution exposure was associated with a higher occurrence of pulmonary disease.
 * Breathing issues and throat discomfort showed noticeable differences between disease and non-disease groups.
@@ -122,16 +122,16 @@ Visualizations included:
 
 ## 🧹 Data Preprocessing:
 
-The following preprocessing steps were performed:
-* Checked data types
-* Checked missing values
-* Checked duplicate records
-* Encoded the target variable
-* Detected outliers using the IQR method
-* Removed extreme observations
-* Removed highly redundant features
-* Performed feature selection using Random Forest feature importance
-* Split the dataset using an 80:20 stratified train-test split
+The following preprocessing steps were performed:-
+* Checked data types.
+* Checked missing values.
+* Checked duplicate records.
+* Encoded the target variable.
+* Detected outliers using the IQR method.
+* Removed extreme observations.
+* Removed highly redundant features.
+* Performed feature selection using Random Forest feature importance.
+* Split the dataset using an 80:20 stratified train-test split.
 
 ## Final train-test dataset size:
 - Training samples : 3,951
@@ -182,7 +182,7 @@ Recall was considered an important metric because false negatives represent posi
 
 ## 🔎 Important Features:
 
-Feature importance analysis identified several influential variables, including:
+Feature importance analysis identified several influential variables, including:-
 * AGE
 * SMOKING
 * ENERGY_LEVEL
@@ -270,12 +270,12 @@ Feature importance indicates predictive contribution within the model; it does n
 
 ## 📌 Future Improvements
 
-- User accounts to save and track past assessments
-- Expanded dataset for improved model generalization
-- Additional models (e.g. XGBoost, SVM) for comparison
-- Model explainability (e.g. SHAP values) to show which factors drove a prediction
-- Mobile-responsive UI improvements
-- Confidence intervals alongside risk predictions
+- User accounts to save and track past assessments.
+- Expanded dataset for improved model generalization.
+- Additional models (e.g. XGBoost, SVM) for comparison.
+- Model explainability (e.g. SHAP values) to show which factors drove a prediction.
+- Mobile-responsive UI improvements.
+- Confidence intervals alongside risk predictions.
 
 ---
 
@@ -284,15 +284,15 @@ Feature importance indicates predictive contribution within the model; it does n
 Interested in improving this project? Contributions are appreciated!
 
 1. Fork the repository
-2. Create a feature branch
+2. Create a feature branch.
 ```bash
    git checkout -b feature/your-feature-name
 ```
-3. Commit your changes
+3. Commit your changes.
 ```bash
    git commit -m "Add: your feature description"
 ```
-4. Push to your fork and open a Pull Request
+4. Push to your fork and open a Pull Request.
 
 ---
 
@@ -310,6 +310,6 @@ Interested in improving this project? Contributions are appreciated!
 
 - Dataset originally sourced from Kaggle (specific listing link no longer available)- the raw CSV file used for this project is included in this repository: [`lung data.csv`](./lung%20data.csv)
 - To explore the source code for this ML project, view the Jupyter notebook here: [Copy_of_Pulmonary_Disease_Classification_project.ipynb](./Copy_of_Pulmonary_Disease_Classification_project.ipynb)
-- Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application
+- Built as a personal project to practice end-to-end machine learning — from data analysis to a deployed, working web application.
 
 
