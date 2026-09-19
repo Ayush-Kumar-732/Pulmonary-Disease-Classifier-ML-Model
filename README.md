@@ -293,6 +293,9 @@ Interested in improving this project? Contributions are appreciated!
    git commit -m "Add: your feature description"
 ```
 4. Push to your fork and open a Pull Request.
+```bash
+   git push origin feature/your-feature-name
+```
 
 ---
 
