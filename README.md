@@ -268,7 +268,7 @@ Feature importance indicates predictive contribution within the model; it does n
 
 ---
 
-## 📌 Future Improvements
+## 📌 Future Improvements:
 
 - User accounts to save and track past assessments.
 - Expanded dataset for improved model generalization.
