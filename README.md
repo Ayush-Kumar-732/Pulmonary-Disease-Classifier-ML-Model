@@ -303,7 +303,7 @@ Interested in improving this project? Contributions are appreciated!
 
 **Ayush Kumar**
 
-   ~Machine Learning Project Developer
+   ~Machine Learning Project Creator
    
    **Github -** https://github.com/Ayush-Kumar-732
 
