@@ -159,12 +159,65 @@ Hyperparameters were optimized using GridSearchCV.
 Used for choosing only required features(patient's demographics) important for predicting lung disease risk before fitting into the model.
 
 ---
-## 📈 Model Performance on test dataset:
-| Model | Accuracy | Precision | Recall | F1-Score |
-| :--- | :--- | :--- | :--- | :--- |
-| Logistic Regression | 87.85% | 86.15% | 83.58% | 84.85% |
-| Decision Tree | 87.96% | 86.56% | 83.33% | 84.92% |
-| KNN | 76.32% | 71.76% | 68.91% | 70.30% |
+
+## 📈 Model Performance: Training vs. Testing
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Model</th>
+      <th colspan="2">Accuracy</th>
+      <th colspan="2">Precision</th>
+      <th colspan="2">Recall</th>
+      <th colspan="2">F1-Score</th>
+    </tr>
+    <tr>
+      <th>Train</th>
+      <th>Test</th>
+      <th>Train</th>
+      <th>Test</th>
+      <th>Train</th>
+      <th>Test</th>
+      <th>Train</th>
+      <th>Test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Logistic Regression</strong></td>
+      <td>87.72%</td>
+      <td>87.85%</td>
+      <td>84.71%</td>
+      <td>86.15%</td>
+      <td>85.18%</td>
+      <td>83.58%</td>
+      <td>84.94%</td>
+      <td>84.85%</td>
+    </tr>
+    <tr>
+      <td><strong>Decision Tree</strong></td>
+      <td>93.37%</td>
+      <td>87.96%</td>
+      <td>92.26%</td>
+      <td>86.56%</td>
+      <td>91.34%</td>
+      <td>83.33%</td>
+      <td>91.80%</td>
+      <td>84.92%</td>
+    </tr>
+    <tr>
+      <td><strong>KNN</strong></td>
+      <td>100.00%</td>
+      <td>76.32%</td>
+      <td>100.00%</td>
+      <td>71.76%</td>
+      <td>100.00%</td>
+      <td>68.91%</td>
+      <td>100.00%</td>
+      <td>70.30%</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 ## Key Takeaways:
